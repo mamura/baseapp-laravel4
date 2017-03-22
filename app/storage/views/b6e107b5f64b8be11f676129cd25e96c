@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h2>Password Reset</h2>
+
+		<div>
+			Para restaurar sua senha acesse esse endereço: <?php echo URL::to('user/reset', array($token)); ?>.<br/>
+			Esse link expirará em <?php echo Config::get('auth.reminder.expire', 60); ?> minutos.
+		</div>
+	</body>
+</html>

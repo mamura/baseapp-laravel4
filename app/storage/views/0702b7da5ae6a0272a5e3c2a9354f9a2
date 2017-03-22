@@ -1,0 +1,26 @@
+
+<?php $__env->startSection("content"); ?>
+
+    <?php echo Form::open(["url" => "groups", "autocomplete" => "off" ]); ?>
+
+
+        <?php echo Form::field([
+            "name"        => "name",
+            "label"       => "Name",
+            "form"        => $form,
+            "placeholder" => "new group"
+        ]); ?>
+
+
+        <?php echo Form::submit("save"); ?>
+
+
+    <?php echo Form::close(); ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection("footer"); ?>
+    @parent
+    <script src="//polyfill.io"></script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make("layout", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

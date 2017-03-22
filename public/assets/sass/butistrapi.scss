@@ -1,0 +1,29 @@
+@import "bootstrap-variables";
+@import "bootstrap";
+
+// Overwrite Bootstrap
+.form-control{
+	@include box-shadow(inset 0 0 0 rgba(0,0,0,.075));
+}
+.form-control:focus{
+	@include box-shadow(inset 0 0 0 rgba(0,0,0,.075));
+}
+
+.btn-pmf{
+	background: #64a9a4;
+	border: 1px solid #64a9a4;
+	color: #fff;
+}
+.btn-pmf:hover,
+.btn-pmf:focus,
+.btn-pmf:active,
+.btn-pmf.active,
+.open .dropdown-toggle.btn-pmf {
+  background-color: #70b4af;
+  border-color: #70b4af;
+  color: #FFFFFF ;
+}
+
+small, .small {
+    font-size: 85%;
+}

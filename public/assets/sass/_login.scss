@@ -1,0 +1,35 @@
+body.blank {
+	background-color: #f1f3f6;
+}
+
+.login-container {
+	max-width: 420px;
+	margin: auto;
+	padding-top: 6%;
+}
+.register-container {
+	max-width: 720px;
+	margin: auto;
+	padding-top: 6%;
+}
+.lock-container {
+	max-width: 420px;
+	margin: auto;
+	padding-top: 6%;
+}
+.error-container {
+	max-width: 620px;
+	margin: auto;
+	padding-top: 6%;
+}
+.big-icon {
+	font-size: 120px;
+}
+.error-container h1 {
+	font-size: 44px;
+}
+.back-link {
+	float: left;
+	width: 100%;
+	margin: 10px;
+}

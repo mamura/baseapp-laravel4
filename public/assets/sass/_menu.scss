@@ -1,0 +1,70 @@
+// Sidebar Hide
+body.hide-sidebar #menu {
+	margin-left: -180px;
+}
+body.hide-sidebar #wrapper {
+	margin-left: 0;
+}
+
+.system-name {
+	padding: 20px 20px;
+	text-align: center;
+}
+.system-name h3{
+	font-family: 'Roboto Mono', monospace;
+}
+.system-name a{
+	color: #444;
+}
+.system-name a:hover{
+	text-decoration: none;
+	color: #666;
+}
+
+#side-menu {
+	background: #f7f9fa;
+}
+#side-menu li a {
+	color: #6a6c6f;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 15px 20px;
+	border: 0px;
+}
+#side-menu li {
+	border-bottom: 1px solid #e4e5e7;
+}
+#side-menu li:first-child {
+	border-top: 1px solid #e4e5e7;
+}
+#side-menu li.active a,
+#side-menu li:hover a {
+	color: #345e5b;
+}
+#side-menu li .nav-second-level li a {
+	padding: 10px 10px 10px 30px;
+	color: #6a6c6f;
+	text-transform: none;
+	font-weight: 600;
+}
+#side-menu li .nav-second-level li.active a {
+	color: #34495e;
+	background-color: #f7f9fa;
+}
+#side-menu.nav > li > a:hover,
+#side-menu.nav > li > a:focus {
+	background: #fff;
+}
+#side-menu li.active {
+	background: #fff;
+}
+
+.arrow {
+	float: right;
+}
+.fa.arrow:before {
+	content: "\f104";
+}
+.active > a > .fa.arrow:before {
+	content: "\f107";
+}
